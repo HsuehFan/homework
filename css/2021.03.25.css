@@ -1,0 +1,19 @@
+
+.wrap{
+    width:1000px;
+    margin:0 auto;
+    border: 1px solid gray;
+    padding-left: 100px;
+    border-radius: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.justLine{
+    width: 600px;
+    border-bottom: 1px dotted grey;
+    
+}

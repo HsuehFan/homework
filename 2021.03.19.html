@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2021.03.19 (五)每日任務</title>
+    <link rel="stylesheet" href="css/2021.03.19.css">
+    
+</head>
+<body>
+    <h1>2021/03/19(五)每日任務</h1>
+    <h2><a href="https://hackmd.io/@jordan990301/ryUv-spmu">表單取值 - .value, .getAttribute('value')觀念</a></h2>
+
+    <p>今天要來補充一些表單取值的觀念，以下有些部分內容並沒有在課堂中提到，
+        不過助教發現問答區中有一些同學對於「value」的用法存有疑惑，因此今天的任務就是好好的認識它! </p>
+    <a href="https://developer.mozilla.org/zh-TW/docs/Web/HTML/Attributes">參考章節</a>
+    <h3>問題</h3>
+    <p>請修改 JS 程式碼來符合下面要求，以下為點擊「觸發按鈕」後所需觸發的程式行為。
+        (請觀察網頁畫面渲染的變化)</p>
+    <ol>
+        <li>將 newValue 轉型為數字型別。</li>
+        <li>執行 newValue += 300;</li>
+        <li>將 el.value 重新賦值為 newValue。</li>
+        <li>用 console.log 輸出 el.value。</li>
+        <li>使用 getAttribute 取得 el 的 「value 屬性值」，並透過 console.log 輸出。</li>
+    </ol>
+    <input type="text" id="targetInput" value="200">
+    <button id="triggerBtn">觸發按鈕</button>
+    <script src="js/2021.03.19.js"></script>
+    
+</body>
+</html>

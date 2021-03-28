@@ -1,0 +1,12 @@
+.wrap{
+    margin: 0 auto;
+    width: 380px;
+    height: auto;
+    border: 1px solid gray;
+    border-radius:5px;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.wrap{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px dotted gray;
+    padding-left: 20px;
+}
+p{
+    color: #ff0000; 
+}

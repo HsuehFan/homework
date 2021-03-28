@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2021.03.16 (二)每日任務</title>
+    
+</head>
+<body>
+    <h1>2021/03/16(二)每日任務</h1>
+    <h2><a href="https://hackmd.io/@jordan990301/ryUMxcOmu">textContent觀念複習</a></h2>
+    <h3>1. 透過 textContent 可以取得 DOM 元素內的 「純文字內容」，HTML 會被忽略 (請注意「純文字內容」有包含換行以及空格)</h3>
+    <div class="targetClass2">
+        <p>取得這個 p 標籤的純文字</p>
+    </div>
+    
+    <h3>2. 可以透過 textContent 替換 DOM 元素內的內容，需要注意以下幾個重點:</br></h3>
+        <p>&nbsp;&nbsp;1. 原先的所有內容都會被清空 (包含 HTML 標籤)</br>
+        &nbsp;&nbsp;2. 新的內容將被瀏覽器解析成「純文字」，不會保留 HTML 標籤的特性。</p>
+    <h3>3. textContent 可以跟變數混合使用</h3>
+
+    <h2>問題</h2>
+    請練習用 querySelector 取得以下元素，並用 textContent 替它新增一些文字內容。
+    <div class="targetClass"></div>
+    <script src="js/2021.03.16.js"></script>
+</body>
+</html>

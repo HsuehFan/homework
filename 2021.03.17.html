@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2021.03.17 (三)每日任務</title>
+    
+</head>
+<body>
+    <h1>2021/03/17(三)每日任務</h1>
+    <h2><a href="https://hackmd.io/DJjU26EhQKynv3yQ9LBhMQ">innerHTML觀念複習</a></h2>
+    <h3>以下程式碼請同學親自貼入 CodePen 或 VSCode 觀察結果</h3>
+    <p><a href="https://courses.hexschool.com/courses/1289881/lectures/30768818">參考章節 1</a></p>
+    <p><a href="https://courses.hexschool.com/courses/1289881/lectures/30768822">參考章節 2</a></p>
+
+    <h2>1. 透過 innnerHTML 可以取得DOM元素內的「HTML內容」</h2>
+        <div class="targetClass">
+            <!--  註解、換行、空白也包含在內-->
+            <p>HTML 標籤的內容也被選取</p>
+        </div>
+    <h2>2. 可以透過 ineerHTML替換DOM元素的HTML，需要注意以下幾個重點：</h2>
+    <p>&nbsp;&nbsp;1. 原光的所有內容都會被清空</p>
+    <p>&nbsp;&nbsp;2. 新的內容將收瀏覽器解析成「HTML」，也就是說會保留 HTML 標籤的特性。</p>
+    <!-- 以下的 p 標籤會被清空 -->
+        <div class="targetClass2">
+            <p>替換這個 p 標籤</p>
+        </div>
+    <h2>3. innerHTML 可以跟變數混合使用</h2>
+    <div class="targetClass3"></div>
+    <h2>問題</h2>
+    請練習用 querySelector 取得以下元素，並用 innerHTML 修改它的 HTML 結構。
+    <div class="targetClass4"></div>
+    
+    <script src="js/2021.03.17.js"></script>
+    
+</body>
+</html>
