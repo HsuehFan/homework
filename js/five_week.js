@@ -32,8 +32,14 @@ let data = [
   ];
 
 let str = "";
+let areaOption = document.querySelector('.regionSearch > option');
+areaOption = areaOption.getAttribute('value');
+console.log(areaOption);
 const ticketCardName = document.querySelector('.ticketCard-area');
+
+
 data.forEach(function(item){
+
     str += `
     <li class="ticketCard">
         <div class="ticketCard-img">
