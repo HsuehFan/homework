@@ -1,0 +1,11 @@
+.wrap {
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 900px;
+    padding-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
