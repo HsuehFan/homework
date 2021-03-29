@@ -1,0 +1,25 @@
+
+.wrap{
+    width:1000px;
+    margin:0 auto;
+    border: 1px solid gray;
+    padding-left: 60px;
+    padding-right: 20px;
+    border-radius: 20px;
+    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.justLine{
+    width: 600px;
+    border-bottom: 1px dotted grey;
+    
+}
+
+.pb1, .pb2, .pb3 {
+    color: blue;
+}
