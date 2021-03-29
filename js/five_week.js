@@ -30,3 +30,10 @@ let data = [
       "rate": 7
     }
   ];
+
+let test1 = "";
+const ticketCardName = document.querySelector('.ticketCard-name');
+data.forEach(function(item){
+    test1 = item.name;
+    console.log(test1);
+})
