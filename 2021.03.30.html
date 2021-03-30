@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>  
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.18/c3.css">
+
+    
+    <link rel="stylesheet" href="css/2021.03.30.css" type="text/css">
+    
+    <title>2021.03.30 (一)每日任務</title>
+</head>
+    <body>
+    <div class="wrap">    
+        <h1>2021/3/30（一）每日任務</h1>
+        <h2><a href="https://hackmd.io/MkUn6AVvQjWc70fKrtUEuA" target="_blank">C3.js 使用練習</a></h2>
+        <p>請同學觀看完<a href="https://courses.hexschool.com/courses/1289881/lectures/31348356" target="_blank">第七週錄影</a>後，練習使用 C3.js 這個套件!</p>
+        <h2>問題一</h2>
+        <p>老媽希望了解一下她的兩個兒子，大翰跟小寶，每天在學校的數學小考成績狀況如何。</p>
+        <p>她透過 C3.js 的<a href="https://c3js.org/samples/timeseries.html" target="_blank"> 折線圖 </a>將他們兩個的<a href="https://docs.google.com/spreadsheets/d/15zplfOdD-ZOonsUsBCRF-sKNLbP2yBRWj1VtNnjnRII/edit#gid=0" target="_blank">成績數據</a> 圖像化，已經知道圖像化後的結果如下圖:</p>
+        <img src="https://upload.cc/i1/2021/03/30/Ta5ysV.jpg" width="90%" height="90%"></img>
+        <p>請問 JS 程式碼應該如何撰寫?</p>
+        <h2>問題二</h2>
+        <p>六角高中準備舉辦園遊會，要由同學們票選出這次的主題。班長透過 C3.js 的 <a href="https://c3js.org/samples/chart_donut.html"> Donut Chart</a> 將投票數據呈現如下</p>
+        <img src="https://upload.cc/i1/2021/03/30/d70fy5.png">
+        <p>已經知道主題有三種，它們各自的得票數以及色碼資訊為:</p>
+        <textarea style="resize:none;width:600px;height:300px;">
+
+    鬼屋{
+        得票數: 10,
+        色碼: #E68618
+    }
+    女僕咖啡廳{
+        得票數: 20,
+        色碼: #F280CA
+    }
+    童話世界{
+        得票數: 5,
+        色碼: #26BFC7
+    }
+        </textarea>
+        <p>請問 JS 程式碼應該如何撰寫?</p>
+        <br>
+
+    <h1>回答</h1>
+        <h2>問題一</h2>
+        <div class="chart"></div>
+        <h2>問題二</h2>
+        <div class="donutChart"></div>
+        
+
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.18/c3.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="js/2021.03.30.js"></script>
+    </body>
+    </html>
