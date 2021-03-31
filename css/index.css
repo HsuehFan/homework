@@ -1,0 +1,17 @@
+.wrap{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.blockDisplay{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.title {
+    width: 45%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
