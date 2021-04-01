@@ -1,30 +1,104 @@
 [
     {
-        "titleName":"2021/02/23 ",     
-        "urlLocalhost":"https://hsuehfan.github.io/homework/2021/02/23.html"
+        "titleName":"2021/02/23 資料型別",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.02.23.html"
     },
     {
-        "titleName":"2021/02/25 ",     
-        "urlLocalhost":"https://hsuehfan.github.io/homework/2021/02/25.html"
+        "titleName":"2021/02/25 Whimsical 及 偶數、奇數判段",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.02.25.html"
     },
     {
-        "titleName":"2021/03/01 ",     
-        "urlLocalhost":"https://hsuehfan.github.io/homework/2021/03/01.html"
+        "titleName":"2021/03/01 陣例的取值",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.01.html"
     },
     {
-        "titleName":"2021/03/02 ",     
-        "urlLocalhost":"https://hsuehfan.github.io/homework/2021/03/02.html"
+        "titleName":"2021/03/02 物件的取值",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.02.html"
     },
     {
-        "titleName":"2021/03/03 ",     
-        "urlLocalhost":"https://hsuehfan.github.io/homework/2021/03/03.html"
+        "titleName":"2021/03/03 物件內新增、修改、取得屬性的方法",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.03.html"
     },
     {
-        "titleName":"2021/03/04 ",     
-        "urlLocalhost":"https://hsuehfan.github.io/homework/2021/03/04.html"
+        "titleName":"2021/03/04 BMI小程式，陣列和IF應用",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.04.html"
     },
     {
-        "titleName":"2021/03/05 ",     
-        "urlLocalhost":"https://hsuehfan.github.io/homework/2021/03/05.html"
+        "titleName":"2021/03/05 物件的操作練習",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.05.html"
+    },
+    {
+        "titleName":"2021/03/08 addEventListener()的用法",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.08.html"
+    },
+    {
+        "titleName":"2021/03/09 forEach 簡介和用法",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.09.html"
+    },
+    {
+        "titleName":"2021/03/10 filter() 介紹",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.10.html"
+    },
+    {
+        "titleName":"2021/03/11 map() 介紹",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.11.html"
+    },
+    {
+        "titleName":"2021/03/12 function 觀念總複習",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.12.html"
+    },
+    {
+        "titleName":"2021/03/15 querySelector觀念複習",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.15.html"
+    },
+    {
+        "titleName":"2021/03/16 textContent觀念複習",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.16.html"
+    },
+    {
+        "titleName":"2021/03/17 innerHTML觀念複習",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021/03/17.html"
+    },
+    {
+        "titleName":"2021/03/18 getAttribute, setAttribute 應用",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.18.html"
+    },
+    {
+        "titleName":"2021/03/19 function 表單取值 - .value及.getAttribute('value') 觀念",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.19.html"
+    },
+    {
+        "titleName":"2021/03/22 axios串接練習-獲取",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.22.html"
+    },
+    {
+        "titleName":"2021/03/23 axios - 將外部資料渲染到網頁上",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.23.html"
+    },
+    {
+        "titleName":"2021/03/24 HTTP狀能碼教學 ",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.24.html"
+    },
+    {
+        "titleName":"2021/03/25 AJAX非同步觀念",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.25.html"
+    },
+    {
+        "titleName":"2021/03/26 透過函式設計處理非同步",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.26.html"
+    },
+    {
+        "titleName":"2021/03/29 三種常見的 POST 請求 Content-Type",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.29.html"
+    },
+    {
+        "titleName":"2021/03/30 C3.js 使用練習",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.30.html"
+    },
+    {
+        "titleName":"2021/03/31 用 axios 串接統計資料",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.03.31.html"
     }
-]
+
+
+]   

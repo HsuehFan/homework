@@ -5,13 +5,23 @@
 
 }
 
+a {
+    text-decoration: none;
+}
+
 .blockDisplay{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-around;
 }
 
 .title {
     width: 45%;
     border: 1px solid gray;
     border-radius: 10px;
+    padding-left: 20px;
+    font-size: 1.4rem;
+}
+
+.title :hover{
+    font-size:1.6rem;
 }
