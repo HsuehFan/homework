@@ -4,6 +4,7 @@ let site1 = document.querySelector('.site1');
 let site2 = document.querySelector('.site2');
 let datalist = "";
 let urlManager = "";
+
 axios.get(urlpath)
 .then(function(response){
     datalist = response.data;
