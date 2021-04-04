@@ -1,0 +1,1 @@
+let url = "https://raw.githubusercontent.com/hexschool/js-traninging-week6API/main/data.json";
