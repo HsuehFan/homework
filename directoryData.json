@@ -106,5 +106,9 @@
     {
         "titleName":"2021/04/02 C3.js、axios 串接、Object.keys() 整合應用",     
         "urlLocalhost":"https://hsuehfan.github.io/homework/2021.04.02.html"
+    },
+    {
+        "titleName":"2021/04/05 使用 test-cors 觀察是否能介接資料</p>",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/2021.04.05.html"
     }
 ]   
