@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>  
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.18/c3.css">
+    <link rel="stylesheet" href="css/2021.04.05.css" type="text/css">
+    
+    <title>2021.04.05 (一)每日任務</title>
+</head>
+        <body>
+        <div class="wrap">    
+            <h1><a href="https://hackmd.io/haZ_-fZLTqKDYObXQASr6Q?view" target="_blank">2021/4/02（五）每日任務</a></h1>
+            <h2>注意事項</h2>
+            <p>請同學參考<a href="https://courses.hexschool.com/courses/1289881/lectures/31525015">第八週的錄影檔 - 上半部</a>了解如何測試 API 是否可以使用。</p>
+            <p>重點一. 用<a href="https://www.test-cors.org/">text-cors</a> 觀察是否能介接</p>
+            <p>重點二. 瀏覽器端讀取關鍵 header 參數：Access-Control-Allow-Origin: *</p>
+
+            <h2>問題</h2>
+            <ol>
+                <li>「全球運動場館資訊網」: <a href="https://iplay.sa.gov.tw/odata/GymSearch?$format=application/json;odata.metadata=none&City=%E9%AB%98%E9%9B%84%E5%B8%82&GymType=%E6%A3%92%E7%90%83%E5%A0%B4&Latitude=22.6239746&Longitude=120.305267">網址一</a></li>
+                <li>「Unsplash」:<a href="https://api.unsplash.com/photos/?client_id=YOUR_ACCESS_KEY">網址二</a></li>
+                <li>「里長資訊網」:<a href="https://cabu4.kcg.gov.tw/KcgRegion/OpenData/%E9%87%8C%E9%95%B7%E9%80%9A%E8%A8%8A%E9%8C%84.JSON">網址三</a></li>
+                <li>「中央氣象局開放資料平臺」:<a href="https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-8C36EA7F-A9E1-4242-9463-66006731040A&format=JSON">網址四</a></li>
+                <li>「旅遊人數明細表」 :<a href="https://culture.tainan.gov.tw/shared/Statistics_Json">網址五</a></li>
+            </ol>
+
+            <h2>回答區：</h2>
+            <ol>
+                <li>「全球運動場館資訊網」:Fired XHR event: error , XHR status: 0，不可讀</li>
+                <li>「Unsplash」:Fired XHR event: load , XHR status: 401，可讀，但用戶端錯誤</li>
+                <li>「里長資訊網」:Fired XHR event: error , XHR status: 0，不可讀</li>
+                <li>「中央氣象局開放資料平臺」:Fired XHR event: load , XHR status: 200，可讀，成功</li>
+                <li>「旅遊人數明細表」 :Fired XHR event: error , XHR status: 0，不可讀</li>
+
+            </ol>
+
+        </div>
+
+            <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+            <script src="js/2021.04.05.js"></script>
+        </body>
+        </html>
