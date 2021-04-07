@@ -3,6 +3,7 @@ let urlPath = "https://raw.githubusercontent.com/hexschool/js-traninging-week6AP
 let answer1 = document.querySelector('.answer1');
 axios.get(urlPath)
     .then((response) =>{
+
         let total = {};
         let data = response.data;
 
