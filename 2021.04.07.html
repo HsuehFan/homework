@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>  
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="css/2021.04.07.css" type="text/css">
+    
+    <title>2021.04.07 (三)每日任務</title>
+</head>
+        <body>
+        <div class="wrap">    
+            <h1><a href="https://hackmd.io/v6ydPPy0TwGEl7MTAZWeAg" target="_blank">2021/4/07（三）每日任務</a></h1>
+            <h2>data-屬性應用</h2>
+            <p>對應章節：<a href="https://courses.hexschool.com/courses/1289881/lectures/31463154">https://courses.hexschool.com/courses/1289881/lectures/31463154</a></p>
+            <h3>小教學</h3>
+            <p>除了影音提到的 .getAtrreibuteu 以外，data-xxx 也可以用 document.querySelector 選取，例如：</p>
+            <p>HTML</p>
+            <img src="https://upload.cc/i1/2021/04/07/NJOfvo.jpg" alt="HTML" width="90%" height="90%">
+            <p>取得「data-title="信箱"」p 標籤的方式有兩種：</p>
+            <p>JS</p>
+            <img src="https://upload.cc/i1/2021/04/07/P5K4bz.jpg" alt="JS" width="90%" height="90%">
+            <p>另外，也可以透過事件綁定來取得 'data-xxx'，例如：</p>
+            <p>HTML</p>
+            <img src="https://upload.cc/i1/2021/04/07/ZGs9it.jpg" alt="HTML" width="90%" height="90%">
+            <p>JS</p>
+            <img src="https://upload.cc/i1/2021/04/07/Yp3Bvg.jpg" alt="JS" width="90%" height="90%">
+        
+            <h2>問題</h2>
+            <p>請使用<a href="https://codepen.io/znlcgmgk/pen/jOyLEGO?editors=1011"> 這個 CodePen </a>做練習，當點擊「加入 alert 文字」按鈕後，將會在對應的</p>
+            <p>&lt;p class="alertMsg"&gt;標籤中填入警示文字，HTML 畫面渲染如下圖:</p>
+            <img src="https://i.imgur.com/ufvuyCh.png" alt="">
+            <p>注意，「信箱 必填」的「信箱」、「密碼 必填」的「密碼」需取 data-title 的內容。</p>
+            <h2>回答區：</h2>
+            <form action="" class="submitForm">
+                <div class="form-group">
+                  <label for="email">Email: </label>
+                  <input type="email" id="email">
+                  <p class="alertMsg" data-title="信箱"></p>
+                </div>
+                <div class="form-group">
+                  <label for="passward">Password: </label>
+                  <input type="passward" id="passward">
+                  <p class="alertMsg" data-title="密碼"></p>
+                </div>
+                <input type="button" value="加入 alert 文字" class="addBtn">
+              </form>
+        </div>
+
+        <script src="js/2021.04.07.js"></script>
+        </body>
+        </html>

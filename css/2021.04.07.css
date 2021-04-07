@@ -15,4 +15,13 @@ a {
 }
 
 
+.submitForm {
+    padding: 10px;
+  }
+  .alertMsg {
+     color: red;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
 /* * {list-style:none;} */
