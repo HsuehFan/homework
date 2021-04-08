@@ -3,7 +3,7 @@ const urlpath2 = "https://hsuehfan.github.io/homework/directoryData2.json";
 let site1 = document.querySelector('.site1');
 let site2 = document.querySelector('.site2');
 let datalist = "";
-let urlManager = "";
+let urlManager = "每日任務";
 let datalist2 = "";
 let urlManager2 = "";
 
