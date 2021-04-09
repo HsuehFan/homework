@@ -1,22 +1,26 @@
 [
     {
-        "titleName":"第二週任務",     
+        "titleName":"第二週主線任務",     
         "urlLocalhost":"https://hsuehfan.github.io/homework/second_week.html"
     },
     {
-        "titleName":"第三週任務",     
+        "titleName":"第三週主線任務",     
         "urlLocalhost":"https://hsuehfan.github.io/homework/third_week.html"
     },
     {
-        "titleName":"第四週任務",     
+        "titleName":"第四週主線任務",     
         "urlLocalhost":""
     },
     {
-        "titleName":"第五週任務",     
+        "titleName":"第五週主線任務",     
         "urlLocalhost":"https://hsuehfan.github.io/homework/five_week.html"
     },
     {
-        "titleName":"第六週任務",     
+        "titleName":"第六週主線任務",     
         "urlLocalhost":"https://hsuehfan.github.io/homework/six_week.html"
+    },
+    {
+        "titleName":"第七週主線任務",     
+        "urlLocalhost":"https://hsuehfan.github.io/homework/seven_week.html"
     }
 ]   
