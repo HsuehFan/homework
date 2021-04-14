@@ -1,0 +1,42 @@
+.wrap{
+    width:1000px;
+    margin:0 auto;
+    border: 1px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.submitForm {
+    padding: 10px;
+  }
+  .alertMsg {
+     color: red;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+.delAllCartList{
+    margin-bottom: 30px;
+}
+
+.productImg{
+    max-height: 150px;
+    object-fit: cover;
+  }
+/* * {list-style:none;} */
+
+label,textarea{
+    display: block;
+}
+.messages{
+    color: red;
+}
