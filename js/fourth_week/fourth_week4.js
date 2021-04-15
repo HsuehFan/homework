@@ -72,7 +72,7 @@ function addData(state, bmi){
   bmiHistoryData.push({
     bmi: bmi,
     state: bmiStatesData[state].state,
-    state: bmiStatesData[state].color,
+    color: bmiStatesData[state].color,
   });
   console.log(
     `您的體重${bmiStatesData[state].state}，健康指數為${bmiStatesData[state].color}`
@@ -83,7 +83,9 @@ function showHistoryData(){
   lastIndex = bmiHistoryData.length-1;
   abbData = bmiHistoryData[lastIndex];
   console.log(
-    `總共計算 ${lastIndex+1}次 BMI 計錄，最後一次 BMI 指數為 ${bmiHistoryData[lastIndex].bmi}，體重${bmiHistoryData[lastIndex].state}！健康指數為${bmiHistoryData[lastIndex].color}`
+    `總共計算 ${lastIndex+1}次 BMI 計錄，最後一次 BMI 指數為 ${abbData.bmi}，體重${abbData.state}！健康指數為${abbData.color}`
+
+    
   );
 }
 
@@ -94,5 +96,5 @@ printBmi(178, 85);
 // printBmi(178, 90);
 // printBmi(178, 110);
 // printBmi(178, 130);
-printBmi("身高", "體重");
+// printBmi("身高", "體重");
 showHistoryData();

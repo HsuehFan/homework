@@ -46,7 +46,7 @@ function printBmi(height, weight) {
 			: bmi < 30
 			? addData("mildFat", bmi)
 			: bmi < 35
-			? addData("moderateFat", bmi)
+			? addData("moderateFat", bmi)			
 			: addData("severeFat", bmi);
 	} else {
 		console.log("您的數值輸入錯誤，請重新輸入");
