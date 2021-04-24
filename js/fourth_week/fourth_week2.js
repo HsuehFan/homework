@@ -63,7 +63,7 @@ function printBmi(height, weight){
         : bmi <35 
         ? addData("moderateFat", bmi)
         : addData("severeFat", bmi);
-  } else {
+} else {
     console.log("您的數值輸入錯誤，請重新輸入。");
   }
 }

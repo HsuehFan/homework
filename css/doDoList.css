@@ -1,0 +1,12 @@
+*, *:befor, *:after{
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 600px;
+    margin: 0 auto;
+    border: 1px dotted gray;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
